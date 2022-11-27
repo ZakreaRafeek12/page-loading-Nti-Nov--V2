@@ -1,0 +1,215 @@
+/*Efect in All page */
+*
+{
+    border: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #070744;
+}
+/*Effect on image */
+.Bg-photo
+{
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+}
+.Myphoto-1
+{
+    position: absolute;
+    right: 68px;
+    bottom: 18px;
+    height: 369px;
+    width: 239px;
+    border-radius: 13px;
+
+}
+/*.Myphoto*/
+/*{*/
+/*    position: relative;*/
+/*}*/
+.Myphoto::after
+{
+    position: absolute;
+    content: "";
+    width: 74px;
+    height: 57px;
+    border-bottom: 5px solid #045a9b;
+    border-right: 5px solid #00807c;
+    top: 318px;
+    right: 58px;
+}
+.Myphoto::before {
+    position: absolute;
+    content: "";
+    width: 74px;
+    height: 57px;
+    border-top: 5px solid #045a9b;
+    border-left: 5px solid #00807c;
+    bottom: 336px;
+    right: 238px;
+}
+/*Start Header */
+/*=================================================================*/
+.header-1
+{
+    display: flex;
+    background-color: #13107b;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+#Herder-Wel
+{
+    width: 40px;
+    color:rgb(56, 53, 53);
+    font-size: 25px;
+    color: aliceblue;
+    margin: 7px;
+    padding: 3px;
+    position: relative;
+}
+#Herder-Wel::before
+{
+    content: '';
+    position: absolute;
+    left:6px;
+    bottom: -2px;
+    width: 35px;
+    height: 5px;
+    background:linear-gradient(to right, #99004d 0%,#ff0080 100%);
+}
+
+.btn-1
+{
+    width: 292px;
+    height: 35px;
+    margin: 15px;
+    border: none;
+    padding: 13px;
+    border-radius:12px ;
+    padding-left: 40px;
+    font-size: 22px;
+}
+.btn-1:hover
+{
+    border-bottom: 2px solid #2f0ee3;
+    outline: #140d3b;
+}
+.icon
+{
+    color: #0a2557;
+    position: absolute;
+    right: 287px;
+    top: 26px;
+    font-size: 19px;
+    text-align: center;
+}
+.litter
+{
+    color: #04599d;
+    margin-left:5px;
+    font-weight: bold;
+}
+.litter::before
+{
+    content: '';
+    position: absolute;
+    left:285px;
+    bottom: -2px;
+    width: 35px;
+    height: 5px;
+    background:linear-gradient(to right, #000399 0%, #ff9200 100%);
+}
+/*End Header*/
+/*------------------------------------------------------------*/
+/*Start Main */
+/*-------------------------------------------------------------*/
+.main
+{
+    position: relative;
+    margin: 12px;
+}
+.parent
+{
+    width:390px;
+    height: 72px;
+    background: #0c135c;
+    text-align: justify;
+    margin-top: 14px;
+    border-radius: 12px;
+}
+.per-1
+{
+    font-size:12px;
+    color: #bababa;
+    font-weight: bolder;
+    padding: 6px;
+    margin: 7px;
+}
+.per-2 {
+    position: absolute;
+    font-size: 32px;
+    color: #bed1de;
+    top: 90px;
+    left: 20px;
+}
+
+.per-3
+{
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    font-size: 22px;
+    color: #9b9b9deb;
+    top: 146px;
+    left: 35px;
+    width: 279px;
+}
+.main-2
+{
+    display: flex;
+    justify-content: space-around;
+}
+/*Start Footer*/
+/*End Footer*/
+.footer-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 27px;
+    color: #0C138A;
+    width: 124px;
+    position: absolute;
+    left: 537px;
+    margin: 15px;
+    cursor: pointer;
+}
+.fa-facebook:hover
+{
+    color: #2f0ee3;
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa-linkedin:hover
+{
+    color: #2f0ee3;
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa-twitter:hover
+{
+    color: #2f0ee3;
+    font-size: 30px;
+    cursor: pointer;
+}
+footer
+{
+    margin-bottom: 12px;
+}
+/* End file Css */
